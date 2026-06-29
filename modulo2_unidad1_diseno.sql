@@ -11,12 +11,12 @@ Nombre VARCHAR(100) Not NUll,
 perfil_bio text Not Null,
 fecha_registro date not null,
 );
+
 --Explicaciones de cada columna de la Tabla Clientes,
 --id_Cliente use "int" para usar un identificador de numero entero,
 --VARCHAR (100) para usar un nombre de longitudes hasta 100 caracteres,
 -- Text lo use para un bloque de texto muy largo,
 --Date para que me muestre solo la fecha del registro.
-
 
 -- Crear Tabla Productos
 Create table Productos (
@@ -31,7 +31,5 @@ esta_activo bit not null,
 --Descripcion use VARCHAR con 255 caracteres asi lo requiere la consigna,
 --Precio use DECIMAL de (10 ,2) asi lo requiere el ejercicio,
 --esta_activo uso bit asi lo evaluo como 1 o 0.
-
-
 
 
