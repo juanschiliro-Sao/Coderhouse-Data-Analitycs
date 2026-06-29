@@ -6,10 +6,10 @@ USE Entregable;
 
 --Crear Tabla Clientes
 Create TABLE Clientes (
-id_Cliente int Not Null Identity(1,1) Primary Key,
-Nombre VARCHAR(100) Not NUll,
-perfil_bio text Not Null,
-fecha_registro date not null,
+id_Cliente int Not Null Identity(1,1) Primary Key
+Nombre VARCHAR(100) Not NUll
+perfil_bio text Not Null	
+fecha_registro date not null
 );
 
 --Explicaciones de cada columna de la Tabla Clientes,
@@ -20,10 +20,10 @@ fecha_registro date not null,
 
 -- Crear Tabla Productos
 Create table Productos (
-id_producto int not null identity (1,1) primary key,
-descripcion varchar(255) not null,
-precio decimal (10 ,2) not null,
-esta_activo bit not null,
+id_producto int not null identity (1,1) primary key
+descripcion varchar(255) not null
+precio decimal (10 ,2) not null
+esta_activo bit not null
 );
 
 --Explicaciones de cada columna de la Tabla Productos,
@@ -32,4 +32,10 @@ esta_activo bit not null,
 --Precio use DECIMAL de (10 ,2) asi lo requiere el ejercicio,
 --esta_activo uso bit asi lo evaluo como 1 o 0.
 
+
+Select * from clientes;
+
+Select * from Productos;
+
+--Uso la opcion de Select para verificar que las tabalas creadas esten correctas.
 
